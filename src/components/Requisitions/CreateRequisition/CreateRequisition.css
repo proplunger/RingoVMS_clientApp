@@ -1,0 +1,715 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.Collapsible {
+    background-color: white;
+}
+
+.Collapsible__contentInner {
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    border-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Collapsible__contentInner p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Collapsible__contentInner p:last-child {
+    margin-bottom: 0;
+}
+
+/* .Collapsible__trigger {
+    display: block;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    position: relative;
+    border: 1px solid white;
+    padding: 10px;
+    background: #00ac9d;
+    cursor: pointer !important;
+    color: white;
+} */
+
+.Collapsible__trigger:after {
+    font-family: "FontAwesome";
+    content: "\f078";
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms;
+}
+.Collapsible__trigger.is-open:after {
+    transform: rotateZ(180deg);
+}
+.Collapsible__trigger.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+}
+
+.CustomTriggerCSS {
+    background-color: lightcoral;
+    transition: background-color 200ms ease;
+}
+
+.CustomTriggerCSS--open {
+    background-color: darkslateblue;
+}
+
+.Collapsible__custom-sibling {
+    padding: 5px;
+    font-size: 12px;
+    background-color: #cbb700;
+    color: black;
+}
+
+.Collapsible__trigger {
+    display: block;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    position: relative;
+    border: 1px solid #109dd2;
+    /* padding: 5px; */
+    padding: 10px;
+    background: #109dd2;
+    color: white;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor:pointer;
+}
+.Collapsible__trigger:after {
+    font-family: "FontAwesome";
+    content: "\f078";
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: block;
+    -webkit-transition: -webkit-transform 300ms;
+    transition: -webkit-transform 300ms;
+    transition: transform 300ms;
+    transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.gridActionBtn {
+    display: table-cell;
+}
+
+.positionCellCls .expandMenuIconCls {
+    color: white !important;
+}
+/* .kendo-grid-custom .k-menu-link {
+  padding: 0px 0px !important;
+  margin-left: 55px;
+  text-align: right;
+} */
+
+.Collapsible__contentInner {
+    padding: 10px;
+    border: transparent !important;
+    border-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.actionItemMenuThreeDots > ul > li > span.k-link.k-menu-link{
+    padding-top: 0px !important;
+    /* padding-bottom: 0px !important; */
+}
+.container_checkboxandradio-savePressentation{
+    padding-left: 33px !important;
+}
+
+.checkmark-nameClear-savepressentation{
+    left: 0px !important;
+}
+
+@media (min-width: 320px) and (max-width: 667px) {
+    body {
+        font-size: 14px;
+    }
+    div.txtOverflow {
+        white-space: nowrap;
+        width: 148px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .Collapsible__contentInner {
+        padding: 10px;
+        border: transparent;
+        border-top: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        /* background-color: #F2F7FF; */
+    }
+    .bg-gird-alternative {
+        background-color: #f2f7ff;
+    }
+
+    /* .gridActionBtn{
+    display: none!important;
+  } */
+    .accordionTableHead {
+        background-color: #2999a6;
+        text-align: center;
+    }
+    .kendo-grid-custom .k-menu-link {
+        padding: 0px 0px !important;
+        margin-left: 7px !important;
+        text-align: right;
+    }
+}
+
+.errorMessage {
+    color: yellow;
+    font-size: 12px;
+    /* margin-top: 26px; */
+    /* background-color: white; */
+}
+
+.container_checkboxandradio {
+    padding-left: 30px;
+}
+
+.checkmark-R {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #4987ec;
+    border-radius: 2px;
+}
+.checkPosition {
+    top: 0px;
+    left: 13px;
+}
+
+.container-R {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    /*margin-bottom: 12px;*/
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container-R input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.container .checkmark:after {
+    top: 5px !important;
+    left: 5px !important;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent !important;
+    border-radius: 50%;
+    border: 1px solid #4987ec;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent !important;
+    background-clip: padding-box;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 3px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:hover:enabled {
+    border-color: #109dd2;
+    color: #484848;
+    background-color: transparent !important;
+}
+
+.form-control.disabled {
+    border-color: rgb(187, 187, 187);
+    color: #484848;
+    background-color: transparent !important;
+}
+
+@media (min-width: 320px) and (max-width: 667px) {
+    .rememberMeCheck {
+        top: -1px;
+        left: -6px;
+    }
+    .container .checkmark:after {
+        top: 5px !important;
+        left: 5px !important;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+    }
+    .checkmark {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: transparent !important;
+        border-radius: 50%;
+        border: 1px solid #4987ec;
+    }
+
+    .radioBtnCustom {
+        padding-left: 25px !important;
+    }
+    
+}
+@media (min-device-width: 768px) and (max-device-width: 1023.5px) {
+    .positionWindow .k-window {
+        width: 95%;
+        height: 100%;
+    }
+}
+
+.active-icon-blue {
+    color: #4987ec !important;
+}
+.nonactive-icon {
+    color: #484848 !important;
+}
+.myorderGlobalicons:hover > .nonactive-icon {
+    color: white !important;
+}
+
+span.k-step-indicator {
+    width: 45px !important;
+    height: 45px !important;
+}
+span.k-step-text {
+    font-size: 1rem !important;
+}
+
+/* .k-icon {
+    font-size: 21px !important;
+} */
+
+.k-stepper .k-step-current .k-step-indicator {
+    border-color: #4a99a6 !important;
+    color: #fff;
+    background-color: #4a99a6 !important;
+}
+
+.k-stepper .k-step-done .k-step-indicator {
+    border-color: #4a99a6 !important;
+    color: #fff;
+    background-color: #4a99a6 !important;
+}
+
+.k-list-container {
+    z-index: 100002;
+}
+
+.k-calendar-container {
+    z-index: 100002 !important;
+}
+.k-animation-container {
+    z-index: 100002 !important;
+}
+
+.platinum {
+    background-color: #dbe8fe !important;
+}
+
+.gold {
+    background-color: #fdf6c0 !important;
+}
+
+.silver {
+    background-color: #f1f1f1 !important;
+}
+
+li.tag-item.platinum {
+    display: none !important;
+}
+li.tag-item.gold {
+    display: none !important;
+}
+li.tag-item.silver {
+    display: none !important;
+}
+.dropdown-content {
+    width: 100% !important;
+}
+
+.react-dropdown-tree-select .dropdown {
+    display: block !important;
+}
+
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
+}
+
+.material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+
+.mdl-demo .dropdown-trigger > span:after {
+    font-size: 12px;
+    color: #555;
+}
+
+.mdl-demo .toggle {
+    font: normal normal normal 18px/1 "Material Icons";
+    color: #555;
+    white-space: pre;
+    margin-right: 4px;
+    outline: 0;
+}
+
+.mdl-demo .toggle.collapsed::after {
+    cursor: pointer;
+    content: "\E5CF";
+    vertical-align: middle;
+}
+
+.mdl-demo .toggle.expanded::after {
+    cursor: pointer;
+    content: "\E5CE";
+    vertical-align: middle;
+}
+
+/* checkbox styles */
+.mdl-demo .checkbox-item {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.75rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    vertical-align: middle;
+}
+
+.mdl-demo .checkbox-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #aaa;
+    transition: all 0.3s ease-in-out;
+}
+
+.mdl-demo .checkbox-item:checked:before {
+    height: 50%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-top-style: none;
+    border-right-style: none;
+    border-color: #2196f3;
+}
+
+.dropdown-shimmer {
+    width: 100%;
+    height: 37px;
+    margin-left: 0;
+    border-radius: 8px;
+}
+
+ul.tag-list li.lplatinum-bg,
+ul.tag-list li.lgold-bg,
+ul.tag-list li.lsilver-bg,
+ul.tag-list li.lutility-bg {
+    display: none;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger {
+    width: 100% !important;
+}
+
+::-webkit-input-placeholder {
+    font-style: normal !important;
+}
+.toggle:focus::after {
+    border: transparent !important;
+}
+
+.button-bg:disabled {
+    cursor: default !important;
+}
+
+.dropdown-content {
+    overflow-y: auto;
+    max-height: 200px;
+    height: auto;
+}
+
+.vendorViewMore {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+.borderRight {
+    border-right: 1px solid #dee2e6 !important;
+    position: relative;
+    margin-left: -10px;
+}
+
+div.dropdown-content {
+    position: absolute;
+    padding: 4px;
+    z-index: 1;
+    background: transparent !important;
+    border-top: 0px solid rgba(0, 0, 0, 0) !important;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0) !important;
+}
+.checkPosition_createorder {
+    left: 0px;
+    top: 5px;
+}
+
+.checkPosition_createorder-timesheet {
+    left: 0px;
+    top: 1px;
+}
+
+.checkPosition_createorder-timesheet {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    border-radius: 2px;
+}
+.container-R.checkPosition_createorder-timesheet-after .checkmark-R:after
+{
+    left: 6px !important;
+    top: 2px !important;
+    width: 6px !important;
+    height: 12px !important;
+    border-color: white !important;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.container-R input[type="checkbox"]:disabled ~ .checkmark-R {
+    border: 1px solid grey !important;
+    opacity: 0.5;
+    background-color: #efefef;
+}
+
+.container-R-notification input[type="checkbox"]:disabled ~ .checkmark-R {
+    border: 1px solid grey !important;
+    opacity: 0;
+    background-color: #efefef;
+}
+.container-R-notification[aria-disabled="true"]{
+    display: none !important;
+}
+
+
+/* .container input[type="radio"][value="false"] ~ .checkmark{
+    border: 1px solid grey;
+  } */
+.container input[type="radio"]:disabled ~ .checkmark {
+    opacity: 0.5;
+}
+.container input[type="radio"]:disabled ~ .checkmark:hover {
+    cursor: default;
+}
+.container-R input[type="checkbox"]:disabled ~ .checkmark-R:hover {
+    cursor: default;
+}
+
+.container input[type="radio"]:disabled ~ .checkmark:hover {
+    cursor: default;
+}
+.container {
+    cursor: default !important;
+}
+.container-R {
+    cursor: default !important;
+}
+
+.checkmark-R {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #4987ec;
+    border-radius: 2px;
+}
+.container input:checked ~ .checkmark {
+    background-color: #4987ec;
+}
+
+/* td.k-command-cell-icon {
+    padding-left: 2px !important;
+} */
+
+.k-checkbox {
+    border-color: #109dd2 !important;
+    color: #109dd2;
+    background-color: white !important;
+}
+.k-checkbox {
+    border-color: #109dd2 !important;
+    color: #109dd2;
+    background-color: white !important;
+    width: 20px;
+    height: 20px;
+}
+
+.k-checkbox:checked {
+    border-color: #109dd2 !important;
+    color: #109dd2;
+    background-color: white !important;
+    width: 20px;
+    height: 20px;
+}
+.k-header .k-checkbox {
+    background-color: transparent !important;
+    border-color: #fff !important;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.k-header .k-checkbox:after {
+    left: 6px;
+    top: 0px;
+    width: 7px;
+    height: 14px;
+    border: solid #4987ec;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.k-button {
+    color: #484848;
+    background-color: #484848;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+    background-image: -webkit-linear-gradient(#fff, #fff);
+    background-image: linear-gradien(t#fff, #fff);
+    border: 1px solid #484848;
+}
+.k-button:hover {
+    color: #484848;
+    background-color: #484848;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+    background-image: -webkit-linear-gradient(#fff, #fff);
+    background-image: linear-gradien(#fff, #fff);
+    border: 1px solid #109dd2;
+}
+.k-window-titlebar button:nth-child(3),
+.k-window-titlebar button:nth-child(2) {
+    display: none;
+}
+
+.k-list .k-item.k-state-focused {
+    box-shadow: none !important;
+    background-color: #bebebeb8 !important;
+}
+.k-list .k-item.k-state-focused:hover {
+    color: black;
+}
+.k-list .k-item.k-state-selected.k-state-focused {
+    background-color: #109dd2 !important;
+}
+@media screen and (max-width: 1024px) {
+    .createjoborderstep4 .kendo-grid-custom.k-widget table thead,
+    .createjoborderstep4 .kendo-grid-custom.k-widget table colgroup {
+        display: block !important;
+    }
+    .createjoborderstep4 div[class*="k-grid-header"] thead tr th:nth-child(2),
+    .createjoborderstep4 div[class*="k-grid-header"] thead tr th:nth-child(3),
+    .createjoborderstep4 div[class*="k-grid-header"] thead tr th:nth-child(4),
+    .createjoborderstep4 div[class*="k-grid-header"] thead tr th:nth-child(5) {
+        display: none !important;
+    }
+
+    .createjoborderstep4 div[class*="k-grid-header"] thead tr th:nth-child(6) {
+        float: right;
+    }
+
+    .createjoborderstep4 div[class*="k-grid-header"] thead tr th:nth-child(1),
+    .createjoborderstep4 div[class*="k-grid-header"] thead tr th:nth-child(6) {
+        display: inline-block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .createjoborderstep4_new .kendo-grid-custom.k-widget table thead,
+    .createjoborderstep4_new .kendo-grid-custom.k-widget table colgroup {
+        display: block !important;
+    }
+    .createjoborderstep4_new div[class*="k-grid-header"] thead tr th:nth-child(2),
+    .createjoborderstep4_new div[class*="k-grid-header"] thead tr th:nth-child(3),
+    .createjoborderstep4_new div[class*="k-grid-header"] thead tr th:nth-child(4),
+    .createjoborderstep4_new div[class*="k-grid-header"] thead tr th:nth-child(5){
+        display: none !important;
+    }
+
+    .createjoborderstep4_new div[class*="k-grid-header"] thead tr th:nth-child(6) {
+        float: right;
+    }
+
+    .createjoborderstep4_new div[class*="k-grid-header"] thead tr th:nth-child(1),
+    .createjoborderstep4_new div[class*="k-grid-header"] thead tr th:nth-child(6) {
+        display: inline-block !important;
+    }
+
+    .createjoborderstep4_new div[class*="k-grid-header"] thead tr th:nth-child(6) {
+     position: absolute;
+     right: 15px;
+    }
+
+    .createjoborderstep4_new .k-grid tr{
+        position: relative;
+    }
+     
+}

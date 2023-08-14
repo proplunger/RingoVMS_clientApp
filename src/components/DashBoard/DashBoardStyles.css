@@ -1,0 +1,247 @@
+.carousel-inner.vv-3 .carousel-item.active,
+.carousel-inner.vv-3 .carousel-item-next,
+.carousel-inner.vv-3 .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner.vv-3 .carousel-item-right.active,
+.carousel-inner.vv-3 .carousel-item-next {
+  transform: translateX(16.66%);
+}
+
+.carousel-inner.vv-3 .carousel-item-left.active,
+.carousel-inner.vv-3 .carousel-item-prev {
+  transform: translateX(-16.66%);
+}
+
+.carousel-inner.vv-3 .carousel-item-right,
+.carousel-inner.vv-3 .carousel-item-left {
+  transform: translateX(0);
+}
+
+.h3_font-size {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #43425d;
+}
+
+.font-size_item {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #43425d;
+}
+
+.carousel-inner.vv-3.vv-4 .carousel-item.active,
+.carousel-inner.vv-3.vv-4 .carousel-item-next,
+.carousel-inner.vv-3.vv-4 .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner.vv-3.vv-4 .carousel-item-right.active,
+.carousel-inner.vv-3.vv-4 .carousel-item-next {
+  transform: translateX(25%);
+}
+
+.carousel-inner.vv-3.vv-4 .carousel-item-left.active,
+.carousel-inner.vv-3.vv-4 .carousel-item-prev {
+  transform: translateX(-25%);
+}
+
+.carousel-inner.vv-3.vv-4 .carousel-item-right,
+.carousel-inner.vv-3.vv-4 .carousel-item-left {
+  transform: translateX(0);
+}
+
+.card-MyTASKSrecipeCarousel2 {
+  background-color: #f2f7fe;
+}
+
+.my-task-bg-color {
+  background-color: #f2f7fe;
+}
+
+.filter-dashboard:hover + .dropdown-menu.dropdown-primary {
+  display: block !important;
+  left: -100px;
+  top: 35px;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.img-fluid_totalspend {
+  max-width: 90% !important ;
+  width: 90%;
+}
+
+.dashboard-bgcolor {
+  background-color: #f8f8f8;
+  /* padding-bottom: 150px !important; */
+  min-height: 100vh;
+}
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
+
+.removeStyle {
+  overflow: visible;
+}
+
+.cusrsor-pointer {
+  cursor: pointer;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+}
+
+.iLjLLY {
+  height: auto !important;
+}
+
+.carousel-control-prev_icon {
+  position: absolute;
+  left: -6px;
+  top: 50px;
+  background-image: none;
+}
+
+.carousel-control-next_icon {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  background-image: none;
+}
+
+.carousel-control-next_inside {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  opacity: 1;
+}
+
+.carousel-control-next_icon >
+.d-flex.align-items-center.justify-content-center.carousel-control-next_inside.shadow-sm >
+i.fal.fa-angle-right{
+  margin-left: 2px;
+}
+
+.carousel-control-prev_icon >
+.d-flex.align-items-center.justify-content-center.carousel-control-next_inside.shadow-sm >
+i.fal.fa-angle-left{
+  margin-left: -1px;
+}
+
+div.google-visualization-tooltip { pointer-events: none }
+
+
+.ml-mr {
+  margin-left: -14px;
+  margin-right: -14px;
+}
+
+.ennThV {
+  margin-left: -7px;
+  margin-right: -7px;
+}
+.pl {
+  width: 15px;
+}
+
+.slider-elliipse {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #43425d;
+}
+
+.slider-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.background-color {
+  background-color: transparent;
+}
+
+.chartHeader_font-size {
+  font-size: 17px !important;
+}
+
+/* .slider-icon > img{
+  width: 30px;
+  height: 30px;
+} */
+
+.slider-icon > svg {
+  font-size: 30px;
+}
+
+.gwZiig {
+  padding-bottom: 2px;
+}
+
+.graphs-div,
+.graph_name_cleared {
+  width: 16px;
+  height: 16px;
+  background-color: #89e894;
+  border-radius: 100px;
+}
+
+.graph-review-by-client,
+.graph-delegate-not-cleared {
+  background-color: #109dd2;
+}
+
+.graph_interview-schedule {
+  background-color: #e9d869;
+}
+
+.graph_name_not_cleared {
+  background-color: #ff6962;
+}
+
+.carousel-control-prev_fa-angle-left {
+  font-size: 24px;
+  color: #2971a6;
+  margin-top: 3px;
+  margin-left: -1px;
+}
+
+.carousel-control-next-icon_fa-angle-right {
+  font-size: 24px;
+  color: #2971a6;
+}
+
+.containershimmer {
+  border: 0px solid rgba(255, 255, 255, 1);
+  /* boxShadow: 0px 0px 20px rgba(0, 0, 0, .1); */
+  /* borderRadius: 4px */
+  background-color: white;
+  /* width: 200px; */
+  /* display: inlineBlock; */
+}
+
+.line2 {
+  margin-top: 20px;
+  height: 10px;
+  width: 60%;
+}
+.square {
+  height: 40px;
+  width: 40px;
+}
+.line {
+  height: 10px;
+  width: 100%;
+  margin-top: 25px;
+}

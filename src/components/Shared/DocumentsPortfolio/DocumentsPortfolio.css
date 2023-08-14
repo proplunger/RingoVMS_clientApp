@@ -1,0 +1,54 @@
+.doc-portfolio .k-icon, .timesheet-doc-portfolio .k-icon {
+    font-size: 16px !important;
+    background-color: #343a40 !important;
+    color: white;
+    padding: 4px 5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+}
+.doc-portfolio{display: inline-flex;color:#343a40;font-weight: bold; cursor: pointer;}
+
+.doc-portfolio div{
+    top: 3px;
+    position: relative;
+    margin-left: 6px;
+    text-decoration: underline;
+}
+
+.timesheet-doc-portfolio {
+    display: inline-flex;
+    line-height: 2;
+}
+
+.timesheet-doc-header {
+    display: inline-flex;
+}
+
+.timesheet-doc-portfolio .k-icon{
+    margin-right: 5px;
+    background-color: #109DD2 !important;
+}
+
+
+.doc-name{width: 60%;height: 32px;outline: none;}
+.btn-bottom{text-align: center;padding: 20px;}
+.show-text{
+    display: block;
+    font-size: 12px;
+    line-height: 13px;
+    color:red;
+}
+.timesheet-doc-portfolio {
+    display: inline-flex;
+    line-height: 2;
+    cursor: pointer;
+    font-weight: 600;
+}
+.timesheet-doc-header {
+    display: inline-flex;
+}
+.timesheet-doc-portfolio .k-icon{
+    margin-right: 5px;
+    background-color: #109DD2 !important;
+}

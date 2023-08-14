@@ -1,0 +1,813 @@
+#root {
+    font-family: "Open Sans" !important;
+    font-size: 14px;
+}
+body {
+    font-family: "Open Sans" !important;
+    font-size: 14px;
+}
+
+/* .BorderSearch {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent !important;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+
+.kendo-grid-custom .k-grid-header {
+    color: #fff;
+    padding: 0px !important;
+    background-color: #2999a6 !important;
+}
+.kendo-grid-custom.k-grid tbody {
+    color: black;
+    background-color: #f2f7fe;
+}
+.kendo-grid-custom.k-grid tr.k-alt {
+    background-color: #fff !important;
+}
+.kendo-grid-custom.k-grid tbody tr:hover,
+.kendo-grid-custom.k-grid tbody tr.k-state-hover {
+    color: black;
+    background-color: none !important;
+}
+/* .bg-white{
+    background-color: white;
+}
+.bg-gray{
+    background-color: #F1F1F1;
+} */
+
+.active-icon-blue {
+    color: #4987ec !important;
+}
+.nonactive-icon {
+    color: #484848 !important;
+}
+.myorderactionicons:hover > .nonactive-icon {
+    color: white !important;
+}
+
+/* .k-menu-group .k-item:hover, .k-menu-group .k-item.k-state-hover, .k-menu.k-context-menu .k-item:hover, .k-menu.k-context-menu .k-item.k-state-hover {
+    color: #fff !important;
+    background-color: #fff;
+} */
+
+.legend-grn {
+    /* display: inline-block; */
+    width: 17px;
+    height: 17px;
+    background-color: #008000;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.legend-released {
+    /* display: inline-block; */
+    width: 17px;
+    height: 17px;
+    background-color: #9eeea1;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.legend-filled {
+    /* display: inline-block; */
+    width: 17px;
+    height: 17px;
+    background-color: #224885;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.legend-closed {
+    /* display: inline-block; */
+    width: 17px;
+    height: 17px;
+    background-color: #484848;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.legend-cancelled {
+    /* display: inline-block; */
+    width: 17px;
+    height: 17px;
+    background-color: rgb(209, 99, 99);
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.legend-cand-under-review {
+    /* display: inline-block; */
+    width: 17px;
+    height: 17px;
+    background-color: #3e7cc3;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.legend-orng {
+    /* display: inline-block; */
+    width: 17px;
+    height: 17px;
+    background-color: #ffa500;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.legend-red {
+    width: 17px;
+    height: 17px;
+    background-color: #ff0000;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.legend-grey {
+    width: 17px;
+    height: 17px;
+    background-color: #bebebe;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.legend-yellow {
+    width: 17px;
+    height: 17px;
+    background-color: #ffdd00;
+    border-radius: 100px;
+    line-height: 17px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.myOrderContainer,
+.myOrderApprovalContainer {
+    margin-top: 12px;
+}
+
+.myOrderComponent .container {
+    max-width: 1300px;
+}
+
+.myOrderComponent .k-grid-header .k-header:first-child {
+    text-align: center;
+}
+
+/* .l-draft{
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    background-color: #BEBEBE;
+}
+.l-hold{
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    background-color: #FFDD00;
+}
+.l-reject{
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    background-color: #E30A0A;
+}
+.l-approved{
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    background-color: #0A910E;
+}
+.l-Pendingapproval{
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    background-color:#FFA500;
+ 
+} */
+/* .l-required{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: #0034e0;
+    line-height: 17px;
+} */
+
+.tooltipCls {
+    /* opacity: 1!important; */
+    width: 14%;
+}
+
+.tooltipClsVM {
+    opacity: 1 !important;
+    width: 127px !important;
+    padding: 0px !important;
+}
+
+.actionItemMenu .k-menu-expand-arrow {
+    display: none;
+}
+
+/* Mobile Responsive Grid CSS*/
+.kendo-grid-custom .k-menu-link {
+    padding: 6px 0px !important;
+}
+#hold-position .k-window-content, .k-prompt-container{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.holdposition-width{
+    width: 1000px;
+}
+
+.holdPosition-icon{
+    font-size: 16px !important;
+    background-color: #343a40 !important;
+    color: white;
+    padding: 2px 5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef !important;
+    opacity: 1;
+}
+
+.hold-position_font-size{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#hold-position .k-numerictextbox .k-numeric-wrap .k-select {
+    border-color: rgba(0,0,0,0.15);
+    color: black;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#fff),to(#fff));
+    background-image: -webkit-linear-gradient(#fff,#fff);
+    background-image: linear-gradient(#fff,#fff);
+    margin-bottom: 0px;
+}
+
+#hold-position .k-numerictextbox .k-numeric-wrap:hover .k-select{
+    border-color: rgba(0,0,0,0.15);
+    color: #fff;
+    background-color: #109dd2;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#109dd2),to(#0f96c9));
+    background-image: -webkit-linear-gradient(#109dd2,#0f96c9);
+    background-image: linear-gradient(#109dd2,#0f96c9);
+}
+
+#hold-position .k-numerictextbox .k-numeric-wrap{
+    border: none;
+}
+
+
+  /* .modal-header .close{
+    animation: popupclose 0.7s;
+  }
+
+  
+@keyframes popupclose {
+    0% {
+      transform: scale(1);
+    }
+   
+  
+    
+    100% {
+        transform: scale(0);
+    }
+  } */
+
+@media screen and (max-width: 1024px) {
+    .kendo-grid-custom.k-widget table thead,
+    table colgroup {
+        display: none;
+    }
+
+    /* .myOrderApprovalContainer .kendo-grid-custom.k-widget table thead,
+    .myOrderApprovalContainer .kendo-grid-custom.k-widget table colgroup {
+        display: block;
+    }
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(1),
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(3),
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(4),
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(5),
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(6),
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(7),
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(8),
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(9),
+    div[class*="k-grid-header"] thead tr th:nth-child(11) {
+        display: none !important;
+    }
+
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(10) {
+        float: right;
+    }
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(2),
+    .myOrderApprovalContainer div[class*="k-grid-header"] thead tr th:nth-child(10) {
+        display: inline-block;
+    } */
+
+    .cand-bill-rate .kendo-grid-custom.k-widget table thead,
+    .cand-bill-rate .kendo-grid-custom.k-widget table colgroup {
+        display: block;
+    }
+    .cand-bill-rate div[class*="k-grid-header"] thead tr th:nth-child(1),
+    .cand-bill-rate div[class*="k-grid-header"] thead tr th:nth-child(2),
+    .cand-bill-rate div[class*="k-grid-header"] thead tr th:nth-child(3),
+    .cand-bill-rate div[class*="k-grid-header"] thead tr th:nth-child(4),
+    .cand-bill-rate div[class*="k-grid-header"] thead tr th:nth-child(5),
+    .cand-bill-rate div[class*="k-grid-header"] thead tr th:nth-child(7) 
+    {
+        display: none !important;
+    }
+
+    .cand-bill-rate div[class*="k-grid-header"] thead tr th:nth-child(6) {
+        float: right;
+        top:-4px;
+    }
+    .cand-bill-rate div[class*="k-grid-header"] thead tr th:nth-child(6)
+    {
+        display: inline-block;
+    }
+
+    
+
+
+    .kendo-grid-custom.k-widget td {
+        border-width: 0 0 1px;
+    }
+
+    .kendo-grid-custom .actionItemMenu .k-menu-horizontal {
+        float: right;
+    }
+
+    .kendo-grid-custom.k-widget table tr {
+        display: block;
+        border-bottom: 2px solid #ddd;
+        border-radius: 0;
+    }
+
+    .kendo-grid-custom.k-widget table td {
+        display: block;
+        font-size: 13px;
+        border-bottom: 1px dotted #ccc;
+        max-width: 100%;
+        text-align: right !important;
+        /* white-space: pre-wrap; */
+        white-space: none !important;
+    }
+
+    /* .stepTwoGridText > .table-responsive > div > .k-grid-container > div >  div >  table > tbody  > tr.k-grid-norecords > td{
+        text-align:center !important;
+    } */
+    .table-responsive > div > .k-grid-container > div > div > table > tbody > tr.k-grid-norecords > td {
+        text-align: center !important;
+    }
+
+    /* .viewOrdersGridText > .table-responsive > div > .k-grid-container > div > div >  table > tbody > tr.k-grid-norecords > td {
+        text-align: center !important;
+       } */
+    /* .kendo-grid-custom.k-widget table td {
+        display: block;
+        font-size: 13px; 
+        border-bottom: 1px dotted #ccc; 
+        max-width: 100%; 
+        text-align: center!important; 
+      
+      } */
+    /* .k-grid .k-hierarchy-cell {
+        text-align: right;
+        padding: 0;
+        overflow: visible;
+    } */
+
+    .left-margin {
+        margin-left: 0px !important;
+    }
+    .hierarchyGridDiv {
+        padding: 15px 0px 15px 0px;
+        margin-left: 5px;
+    }
+
+    .hierarchyGridDiv td,
+    .k-detail-row td {
+        border: none !important;
+    }
+
+    .kendo-grid-custom.k-widget table tr {
+        border-bottom: 0 solid #ddd;
+    }
+
+    .kendo-grid-custom.k-widget table td:before {
+        content: attr(contextmenu);
+        float: left;
+        /* text-transform: uppercase; */
+        font-weight: bold;
+        width: 40%;
+        color: var(--top-header-bg);
+        text-align: left;
+        white-space: pre-wrap;
+    }
+    .legend-orng {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #ffa500;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .legend-grn {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #008000;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .legend-released {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #9eeea1;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+
+    .legend-filled {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #224885;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .legend-cand-under-review {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #3e7cc3;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .legend-yellow {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #ffdd00;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .legend-grey {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #bebebe;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .legend-red {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #ff0000;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .legend-closed {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(209, 99, 99);
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .legend-cancelled {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #484848;
+        border-radius: 100px;
+        line-height: 17px;
+        position: absolute;
+        right: 20px;
+    }
+    .tabGrid-viewicon {
+        margin-left: 452px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .kendo-grid-custom .k-menu-link {
+        padding: 0px 0px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    
+
+    #releaseVendor  .k-menu-link > .k-icon:not(.k-menu-expand-arrow),
+    .k-menu-link > .k-image,
+    .k-menu-link > .k-sprite {
+        /* margin-right: 4px; */
+        margin-left: 0px;
+    }
+
+    .kendo-grid-custom.k-widget table tr {
+        border-bottom: 0 solid #ddd;
+    }
+
+    .k-menu-link > .k-icon:not(.k-menu-expand-arrow),
+    .k-menu-link > .k-image,
+    .k-menu-link > .k-sprite {
+        /* margin-right: 4px; */
+        margin-left: 50px;
+    }
+
+    .legend-grn,
+    .legend-orng,
+    .legend-red,
+    .legend-grey,
+    .legend-yellow,
+    .legend-released,
+    .legend-cand-under-review,
+    .legend-filled,
+    .legend-closed,
+    .legend-cancelled {
+        margin-left: 78px;
+    }
+
+    .kendo-grid-custom.k-widget table td:before {
+        content: attr(contextmenu);
+        float: left;
+        /* text-transform: uppercase; */
+        font-weight: bold;
+        width: 40%;
+        color: var(--top-header-bg);
+        text-align: left;
+    }
+
+    .kendo-grid-custom .k-menu-link {
+        padding: 0px 0px !important;
+    }
+
+    /* .kendo-grid-custom.k-widget table td.positionCellCls:before {
+        
+            content: none!important;
+                float: left;
+             
+                font-weight: bold;
+                width: 170px;
+                color: white;
+                text-align: left;
+        } */
+}
+
+/* @media screen and (max-width:1024px){
+    .holdposition-width{
+        width: 600px;
+    }
+} */
+ 
+/* @media screen and (max-width:1024px){
+    .holdposition-width{
+        width: 600px;
+        height: auto !important;
+    }
+} */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .holdposition-width{
+        width: auto;
+        /* max-height: 450px !important; */
+    }
+
+    .For-all-responsive-height .k-widget.k-window.k-dialog{
+        height: auto;
+        max-height: 80vh;
+    }
+    .Popup-height-summary{
+        height: auto;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .holdposition-width{
+        width: 550px;
+        /* height: auto !important;
+        max-height: 350px; */
+    }
+
+    .For-all-responsive-height .k-widget.k-window.k-dialog{
+        height: auto;
+        max-height: 75vh;
+    }
+
+    .Popup-height-summary{
+        height: auto;
+        max-height: 75vh;
+        overflow-y: auto;
+    }
+
+    .containerDialoginside-popup{
+        max-height: 75vh;
+        overflow-y: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .holdposition-width{
+        width: 600px;
+        /* max-height: 350px !important; */
+    }
+
+    .For-all-responsive-height .k-widget.k-window.k-dialog{
+        height: auto;
+        max-height: 75vh;
+    }
+
+    .Popup-height-summary{
+        height: auto;
+        max-height: 75vh;
+        overflow-y: auto;
+    }
+
+    .containerDialoginside-popup{
+        max-height: 75vh;
+        overflow-y: auto;
+    }
+    .navbar-hamburgericon{
+        width: 53%;
+        max-width: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar-hamburgericon{
+        width: 53%;
+        max-width: auto;
+    }
+    .holdposition-width{
+        width: 850px;
+        /* height: auto !important;
+        max-height: initial !important; */
+    }
+
+    .For-all-responsive-height .k-widget.k-window.k-dialog{
+        height: auto;
+        max-height: 90vh;
+    }
+    .Popup-height-summary{
+        height: auto;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .containerDialoginside-popup{
+        max-height: initial;
+        overflow-y: auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navbar-hamburgericon{
+        width: initial !important;
+        max-width: initial !important;
+    }
+    .holdposition-width{
+        width: 850px;
+        /* height: auto !important;
+        max-height: initial !important; */
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    .navbar-hamburgericon{
+        width: initial !important;
+        max-width: initial !important;
+    }
+    .holdposition-width{
+        width: 850px;
+        /* height: auto !important;
+        max-height: initial !important; */
+    }
+}
+
+.k-menu-group .k-menu-link {
+    padding: 4px 8px;
+    padding-right: 10px;
+}
+
+
+/* .kendo-grid-custom .k-detail-row > .k-hierarchy-cell{
+display: none;
+} */
+
+.ringoContainer {
+    max-width: 93%;
+    flex: 0 0 93%;
+}
+
+/* .kendo-grid-custom  td.k-detail-cell{
+    background-color: white !important;
+} */
+
+/* .kendo-grid-custom td.k-hierarchy-cell{
+    display: none!important;
+} */
+
+.orderNumberTd {
+    color: #007bff !important;
+    text-decoration: underline !important;
+}
+
+.orderNumberTd:hover {
+    color: #000 !important;
+}
+
+/*Ravi*/
+.orderNumberTdBalck {
+    color: black !important;
+    text-decoration: underline !important;
+}
+.orderNumberTdBalck:hover {
+    color: #007bff !important;
+}
+/*Ravi*/
+.hierarchyGridDiv .k-hierarchy-cell {
+    cursor: pointer !important;
+}
+
+.noteHistorySpan {
+    border: 1px solid #4987ec;
+    padding: 2px;
+    background-color: transparent !important;
+    border-radius: 2px;
+}
+
+.noteHistoryIcon {
+    color: #000000b5;
+}
+
+#hold-position .width-requisitions-manager .k-widget.k-window.k-dialog{
+    width: auto;
+    max-width: 90%;
+}

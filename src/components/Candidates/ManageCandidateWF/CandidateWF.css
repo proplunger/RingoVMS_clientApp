@@ -1,0 +1,33 @@
+﻿body {
+}
+
+
+#hold-position .width .k-widget.k-window.k-dialog{
+    width:auto;
+    max-width:90%;
+}
+
+.k-animation-container.k-animation-container-relative.k-animation-container-shown 
+> .k-menu-popup.k-popup.k-child-animation-container.undefined 
+> ul.k-group.k-menu-group.k-reset[role="menu"] 
+> li.k-item.k-menu-item[role="menuitem"] 
+> span.k-link.k-menu-link 
+> .pb-1.pt-1.w-100.myorderactionicons 
+> svg {
+	font-size:16px !important;
+	width:1rem !important;
+}
+
+.k-animation-container.k-animation-container-relative.k-animation-container-shown 
+> .k-menu-popup.k-popup.k-child-animation-container.undefined 
+> ul.k-group.k-menu-group.k-reset[role="menu"] 
+> li.k-item.k-menu-item[role="menuitem"] 
+> span.k-link.k-menu-link 
+> .pb-1.pt-1.w-100.myorderactionicons {
+    display: flex;
+    align-items: center;
+}
+
+.Icon_width{
+    width: 1rem;
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "label": "All Platinum",
+        "className": "lPlatinum-bg",
+        "tagClassName": "lPlatinum-bg",
+        "children": [
+            {
+                "label": "Platinum 1",
+                "tagClassName": "lPlatinum-bg"
+            },
+            {
+                "label": "Platinum 2",
+                "tagClassName": "lPlatinum-bg"
+            },
+            {
+                "label": "Platinum 3",
+                "tagClassName": "lPlatinum-bg"
+            }
+        ]
+    },
+    {
+        "label": "All Gold",
+        "className": "lgold-bg",
+        "tagClassName": "lgold-bg",
+        "children": [
+            {
+                "label": "Gold 1",
+                "tagClassName": "lgold-bg"
+            },
+            {
+                "label": "Gold 2",
+                "tagClassName": "lgold-bg"
+            },
+            {
+                "label": "Gold 3",
+                "tagClassName": "lgold-bg"
+            }
+        ]
+    },
+    {
+        "label": "All Silver",
+        "className": "lsilver-bg",
+        "tagClassName": "lsilver-bg",
+        "children": [
+            {
+                "label": "Silver 1",
+                "tagClassName": "lsilver-bg"
+            },
+            {
+                "label": "Silver 2",
+                "tagClassName": "lsilver-bg"
+            },
+            {
+                "label": "Silver 3",
+                "tagClassName": "lsilver-bg"
+            }
+        ]
+    },
+    {
+        "label": "All Utility",
+        "className": "lutility-bg",
+        "tagClassName": "lutility-bg",
+        "children": [
+            {
+                "label": "Utility 1",
+                "tagClassName": "lutility-bg"
+            },
+            {
+                "label": "Utility 2",
+                "tagClassName": "lutility-bg"
+            },
+            {
+                "label": "Utility 3",
+                "tagClassName": "lutility-bg"
+            }
+        ]
+    }
+]

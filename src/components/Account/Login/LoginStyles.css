@@ -1,0 +1,89 @@
+.errorMessage {
+    color: yellow;
+    font-size: 12px;
+    /* margin-top: 26px; */
+    /* background-color: white; */
+}
+
+/* .container{
+    padding-left: 15px !important;
+} */
+
+#guestLayout > .container.container-content{
+    padding-left: 15px;
+}
+
+.login100-social-item{
+    font-size: 25px;
+    color: #3b5998;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 5px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+div.login {
+    margin-top: 10px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    /* width: 337px; */
+    height: 488px !important;
+    color: #484848;
+    /* background-image: url(../images/bg_ringo_login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial; */
+    background: linear-gradient(to bottom, #008787, #068995, #088caa, #0673ae, #095795, #11346e);
+    border-radius: 3px;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    border-color: #ffff2a;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url(https://i.ibb.co/RCnjWSM/exclamation.png);
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+   
+    
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 667px) {
+    .rememberMeCheck{
+        top: -1px;
+        left: -6px;
+    }
+    /* .k-loading-image {
+        background-image: url('../../assets/images/805.gif');
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        z-index: 15000000 !important;
+    } */
+    div.login {
+        margin-top: 10px;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        /* width: 406px; */
+        height: 506x !important;
+        color: #484848;
+        /* background-image: url(../images/bg_ringo_login.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: initial; */
+        background: linear-gradient(to bottom, #008787, #068995, #088caa, #0673ae, #095795, #11346e);
+
+        border-radius: 3px;
+    }
+} 

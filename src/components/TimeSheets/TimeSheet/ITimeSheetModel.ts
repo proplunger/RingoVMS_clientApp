@@ -1,0 +1,33 @@
+export interface TsDayServType{
+    inEdit?:boolean;
+    tsDayServTypeId?:string;
+    serviceTypeId:string;
+    serviceType?:string;
+    serviceTypes?:any[];
+    candSubId?:string;
+    billRate?:number;
+    billType?:string;
+    tsDayId?:string;
+    shiftId?:string;
+    shift?:string;
+    timeIn?:string;
+    timeOut?:string;
+    saveTimeIn?:Date;
+    saveTimeOut?:Date;
+    breakTime?:string;
+    breakHour?:string;
+    breakMinutes?:string;
+    comment?:string;
+    hours?:number;
+    gauranteedHours?:number;
+    maxGuaranteedHours?:number;
+    guaranteedBillType?:number;
+    // valdation states
+    invalidServiceType?:boolean;
+    invalidShiftType?:boolean;
+    invalidHours?:boolean;
+    isNegetiveGHours?:boolean;
+    isGuaranteedHrsChanged?:boolean;
+    workHours?:number;
+    rate?:number;
+}

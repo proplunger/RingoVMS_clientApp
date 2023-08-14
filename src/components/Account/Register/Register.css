@@ -1,0 +1,85 @@
+div.register {
+    margin-top: 10px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    /* width: 337px; */
+    height: auto;
+    color: #484848;
+    background: linear-gradient(to bottom, #008787, #068995, #088caa, #0673ae, #095795, #11346e);
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border-radius: 3px;
+}
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #ffff2a;
+}
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    border-color: #ffff2a;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url(https://i.ibb.co/RCnjWSM/exclamation.png);
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+   
+    
+}
+
+.maskborder input{
+    border:0px!important;
+}
+
+.registerPhoneNo .k-textbox{
+    color:#f8f9fa !important;
+}
+
+.registerPhoneNo .k-textbox:hover{
+    border: 0!important
+}
+
+
+.registerPhoneNo .k-textbox::placeholder {
+    color: #fff !important;
+}
+
+@media (min-width: 320px) and (max-width: 667px) {
+    div.register {
+        margin-top: 10px;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        /* width: 406px; */
+        height: auto;
+        color: #484848;
+        background: linear-gradient(to bottom, #008787, #068995, #088caa, #0673ae, #095795, #11346e);
+        /* margin-left: 10px;
+        margin-right: 10px; */
+        border-radius: 3px;
+    }
+    .invalid-feedback {
+        display: none;
+        width: 100%;
+        margin-top: 0.25rem;
+        font-size: 80%;
+        color: yellow;
+    }
+    .placeholder::placeholder {
+        color: #fff !important;
+        font-style: italic;
+    }
+    
+    .placeholder-brd {
+        border: 1px solid white;
+    }
+    
+    .placeholder-brd {
+        border: 1px solid white;
+    }
+    
+} 

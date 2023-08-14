@@ -1,0 +1,158 @@
+.deleteButton {
+  align-items: center;
+  background: #333333;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  font-size: 12px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  /* margin-left: 8px; */
+  /* transform: rotate(45deg); */
+}
+
+.fileName {
+  align-items: center;
+  background: transparent;
+  border-radius: 2px;
+  color: black;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+
+  display: flex;
+    align-items: center;
+}
+
+
+.filenamecross > svg{
+  font-size: 15px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+
+#viewOnboarding #RoundeGrid-rate span.k-widget.k-datepicker.form-control > span.k-icon.k-i-clock{
+  color: #109dd2;
+  border-color: transparent;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(#fff, #fff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(#fff, #fff);
+  background-image: linear-gradient(#fff, #fff);
+  margin-bottom: 0px;
+}
+
+#viewOnboarding #RoundeGrid-rate span.k-picker-wrap.k-state-default.k-picker-wrap{
+  border-width: 0;
+}
+
+#viewOnboarding #RoundeGrid-rate .k-datepicker .k-select:hover, .k-datepicker .k-select.k-state-hover, .k-timepicker .k-select:hover, .k-timepicker .k-select.k-state-hover {
+  border-color: transparent;
+  color: white !important;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#109dd2), to(#109dd2));
+  background-image: -webkit-linear-gradient(#109dd2, #109dd2);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#109dd2), to(#109dd2));
+  background-image: -webkit-linear-gradient(#109dd2, #109dd2);
+  background-image: linear-gradient(#109dd2, #109dd2);
+  margin-bottom: 0px;
+}
+
+/* #viewOnboarding #RoundeGrid-rate table tbody tr td {
+  vertical-align: top;
+} */
+
+#viewOnboarding #RoundeGrid-rate table tbody tr td > span.fileName {
+  margin: 0px;
+    padding: 0px;
+}
+
+#viewOnboarding #RoundeGrid-rate table tbody tr td:last-child > div > button {
+  margin-top: 8px;
+}
+
+#viewOnboarding #RoundeGrid-rate table tbody tr td:last-child > .actionItemMenu > ul  > li  > span {
+  padding: 0px !important;
+}
+
+/* #viewOnboarding #RoundeGrid-rate .k-datepicker .k-select, .k-timepicker .k-select, .k-datetimepicker .k-select {
+  border-color: transparent;
+  color: orange;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, transparent);
+  background-image: linear-gradient(transparent, transparent);
+  margin-bottom: 2px;
+} */
+
+
+#viewOnboarding #RoundeGrid-rate span.k-widget.k-datepicker.form-control a.k-select.k-select{
+  border-color: transparent;
+  color: #484848 !important;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, transparent);
+  background-image: linear-gradient(transparent, transparent);
+  margin-bottom: 0px;
+}
+
+#viewOnboarding #RoundeGrid-rate .k-dateinput:hover{
+  background-color: transparent;
+}
+
+#viewOnboarding #RoundeGrid-rate .k-dateinput:hover{
+  background-color: transparent;
+}
+
+
+#viewOnboarding #RoundeGrid-rate span.k-picker-wrap.k-state-default.k-picker-wrap:hover a.k-select.k-select{
+  color: #fff !important;
+    background-color: #109dd2 !important;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#109dd2),to(#0f96c9)) !important;
+    background-image: -webkit-linear-gradient(#109dd2,#0f96c9) !important;
+    background-image: linear-gradient(#109dd2,#0f96c9) !important;
+}
+
+#viewOnboarding #RoundeGrid-rate .lastchild table tr th:last-child{
+  padding-left: 0px;
+}
+
+.text-underline-ellipse {
+  max-width: 192px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+#viewOnboarding #RoundeGrid-rate 
+    table tbody tr td:last-child > div > .k-button{
+      padding: 4px;
+    }
+
+    
+
+@media screen and (max-width: 1024px){
+  #viewOnboarding #RoundeGrid-rate 
+    div[class*="k-grid-header"]{
+      display: block !important;
+    }
+  
+    #viewOnboarding #RoundeGrid-rate 
+    div[class*="k-grid-header"] table thead tr th{
+      display: none !important;
+    }
+  
+    #viewOnboarding #RoundeGrid-rate 
+    div[class*="k-grid-header"] table thead tr th:last-child{
+      display: block !important;
+    }
+}

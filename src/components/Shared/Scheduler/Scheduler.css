@@ -1,0 +1,1517 @@
+#ScheduleAvailablilty > .k-widget.k-scheduler.k-scheduler-flex.k-floatwrap {
+  height: auto !important;
+  /* border: transparent; */
+}
+
+#ScheduleAvailablilty .k-widget.k-toolbar.k-scheduler-toolbar {
+  background-color: #f9f9f9;
+  z-index: 0;
+}
+
+#ScheduleAvailablilty .k-button-group.k-scheduler-navigation {
+  margin-left: 5px;
+  border-radius: 3px;
+  background-color: #e4e7eb;
+}
+#ScheduleAvailablilty button.k-button.k-group-start {
+  background-image: -webkit-linear-gradient(transparent, transparent);
+  background-image: -moz-linear-gradient(transparent, transparent);
+  background-color: transparent;
+  border: none;
+}
+
+#ScheduleAvailablilty button.k-button.k-button-icon[title="Previous"] {
+  background-image: -webkit-linear-gradient(transparent, transparent);
+  background-image: -moz-linear-gradient(transparent, transparent);
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  width: auto;
+  height: auto;
+}
+
+#ScheduleAvailablilty
+  button.k-button.k-button-icon[title="Previous"]
+  > .k-i-arrow-60-left::before {
+  color: black;
+}
+
+#ScheduleAvailablilty button.k-button.k-button-icon.k-group-end[title="Next"] {
+  background-image: -webkit-linear-gradient(transparent, transparent);
+  background-image: -moz-linear-gradient(transparent, transparent);
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  width: auto;
+  height: auto;
+}
+
+#ScheduleAvailablilty
+  button.k-button.k-button-icon.k-group-end[title="Next"]
+  > .k-i-arrow-60-right::before {
+  color: black;
+}
+
+#ScheduleAvailablilty button.k-button.k-group-start:focus {
+  box-shadow: none;
+}
+
+#ScheduleAvailablilty button.k-button.k-group-start:active {
+  color: black;
+}
+
+#ScheduleAvailablilty span.k-widget.k-datepicker {
+  width: auto;
+  margin-right: 10px;
+}
+#ScheduleAvailablilty
+  span.k-widget.k-datepicker
+  > button.k-button.k-flat.k-nav-current:before {
+  background-color: transparent !important;
+}
+
+#ScheduleAvailablilty .k-button::before {
+  background-color: transparent;
+}
+
+#ScheduleAvailablilty
+  > .k-widget.k-scheduler.k-scheduler-flex.k-floatwrap
+  > .k-scheduler-layout.k-scheduler-layout-flex.k-scheduler-day-view {
+  z-index: 0;
+}
+#ScheduleAvailablilty
+  > .k-widget.k-scheduler.k-scheduler-flex.k-floatwrap
+  > .k-scheduler-layout.k-scheduler-layout-flex.k-scheduler-monthview {
+  z-index: 0;
+}
+
+#ScheduleAvailablilty button.k-button.k-button-icon[title="Previous"]:focus {
+  box-shadow: none;
+}
+
+#ScheduleAvailablilty
+  button.k-button.k-button-icon.k-group-end[title="Next"]:focus {
+  box-shadow: none;
+}
+
+#ScheduleAvailablilty .k-group-cell {
+  background-color: white;
+}
+
+/* popup */
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div:nth-child(2) {
+  display: none;
+}
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div {
+  width: 100%;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > .k-widget.k-datetimepicker {
+  width: 100%;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > .k-widget.k-datetimepicker
+  > .k-picker-wrap.k-state-default {
+  border: 1px solid rgb(187, 187, 187) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > .k-widget.k-datetimepicker
+  > .k-picker-wrap.k-state-default
+  > span.k-select {
+  margin-bottom: 0px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > .k-widget.k-datetimepicker
+  > .k-picker-wrap.k-state-default
+  > span.k-select
+  > span.k-link.k-link-date
+  > .k-i-calendar::before {
+  color: #109dd2;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > .k-widget.k-datetimepicker
+  > .k-picker-wrap.k-state-default
+  > span.k-select:hover {
+  background-image: linear-gradient(transparent, transparent);
+  background-color: transparent;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  .k-datepicker
+  .k-picker-wrap:hover
+  .k-select,
+.k-datepicker .k-picker-wrap.k-state-hover .k-select,
+.k-timepicker .k-picker-wrap:hover .k-select,
+.k-timepicker .k-picker-wrap.k-state-hover .k-select,
+.k-datetimepicker .k-picker-wrap:hover .k-select,
+.k-datetimepicker .k-picker-wrap.k-state-hover .k-select {
+  background-image: linear-gradient(transparent, transparent);
+  background-color: transparent;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog > .k-widget.k-window.k-dialog {
+  min-width: 400px !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > span.k-widget.k-datepicker {
+  width: 100%;
+  border: 1px solid rgb(187, 187, 187) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > span.k-widget.k-datepicker
+  > span.k-picker-wrap.k-state-default
+  > a.k-select.k-select
+  > .k-i-calendar::before {
+  color: #109dd2;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > span.k-widget.k-datepicker
+  > a.k-select.k-select {
+  margin-bottom: 0px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field:nth-child(4) {
+  display: none;
+}
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched {
+  padding: 8px 8px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-window-titlebar.k-dialog-titlebar.k-header {
+  padding: 0.5rem;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog .k-button:active::before,
+.k-button.k-state-active::before {
+  opacity: 0;
+}
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  a.k-button.k-bare.k-button-icon.k-window-action.k-dialog-action.k-dialog-close {
+  opacity: 1;
+}
+
+/* .k-dialog-wrapper.k-scheduler-edit-dialog > 
+     .k-widget.k-window.k-dialog > 
+     .k-dialog-buttongroup.k-dialog-button-layout-stretched > button.k-button::before {
+        
+        opacity: 1 !important;
+        display: inline-table;
+        background-color: transparent;
+        position: absolute;
+        top: 9px;
+        left: 20px;
+        font-family: fontAwesome;
+    } */
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > button.k-button:nth-child(1)::before {
+  content: "\f0c7" !important;
+  font-weight: bold;
+  opacity: 1 !important;
+  display: inline-table;
+  background-color: transparent;
+  /* position: absolute;
+  top: 8px;
+  left: 25px !important; */
+  position: relative;
+  top: 0px;
+  left: -10px;
+  font-family: fontAwesome;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > button.k-button:nth-child(2)::before {
+  left: inherit;
+  content: "\f057" !important;
+  font-weight: normal;
+  opacity: 1 !important;
+  display: inline-table;
+  background-color: transparent;
+  /* position: absolute;
+  top: 8px;
+  left: 20px; */
+  position: relative;
+  top: 0px;
+  left: -10px;
+  font-family: fontAwesome;
+}
+/* .k-dialog-button-layout-stretched .k-button{
+        padding: 8px 5px;
+        width: auto !important;
+        max-width: 120px;
+        padding-left: 16px;
+    } */
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  border-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button {
+  padding: 8px 5px;
+  width: auto !important;
+  /* max-width: 110px; */
+  padding-left: 16px;
+  margin-left: 15px;
+}
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1) {
+  background-color: #109dd2 !important;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1):hover {
+  background-color: #0d92c3 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#0d92c3, #0d92c3);
+  background-image: -moz-linear-gradient(#0d92c3, #0d92c3);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1):focus {
+  background-color: #0d92c3 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#0d92c3, #0d92c3);
+  background-image: -moz-linear-gradient(#0d92c3, #0d92c3);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1):active {
+  background-color: #0d92c3 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#0d92c3, #0d92c3);
+  background-image: -moz-linear-gradient(#0d92c3, #0d92c3);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1):enabled {
+  background-color: #0d92c3 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#0d92c3, #0d92c3);
+  background-image: -moz-linear-gradient(#0d92c3, #0d92c3);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2) {
+  background-color: #6b6b6b !important;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2):hover {
+  background-color: #232323 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: -moz-linear-gradient(#6b6b6b, #6b6b6b);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2):active {
+  background-color: #232323 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: -moz-linear-gradient(#6b6b6b, #6b6b6b);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2):focus {
+  background-color: #232323 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: -moz-linear-gradient(#6b6b6b, #6b6b6b);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2):enabled {
+  background-color: #232323 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: -moz-linear-gradient(#6b6b6b, #6b6b6b);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > span.k-textarea
+  > textarea {
+  resize: none;
+  height: 55px;
+}
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > span.k-widget.k-numerictextbox
+  > span.k-numeric-wrap {
+  border: 1px solid rgb(187, 187, 187) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > span.k-widget.k-numerictextbox
+  > span.k-numeric-wrap
+  > span.k-select {
+  margin-bottom: 0px;
+}
+
+/* .k-dialog-wrapper.k-scheduler-edit-dialog > .k-widget.k-window.k-dialog > 
+    .k-content.k-window-content.k-dialog-content > 
+    form.k-form.k-scheduler-edit-form > .k-form-field > ul >  li.k-radio-item  
+    > span.k-widget.k-numerictextbox  > span.k-numeric-wrap.k-state-disabled {
+        border: 1px solid rgb(187, 187, 187) !important;
+    } */
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical
+  > li.k-radio-item
+  > span.k-widget.k-numerictextbox
+  > span.k-numeric-wrap.k-state-disabled {
+  border: 1px solid rgb(187, 187, 187) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form {
+  max-height: 360px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical
+  > li.k-radio-item
+  > span.k-widget.k-datepicker {
+  border: 1px solid rgb(187, 187, 187) !important;
+}
+
+/* .k-dialog-wrapper.k-scheduler-edit-dialog > 
+    .k-widget.k-window.k-dialog > 
+    .k-content.k-window-content.k-dialog-content > 
+    form.k-form.k-scheduler-edit-form > .k-form-field 
+    > .k-form-field-wrap  > ul.k-radio-list.k-list-vertical  > 
+    li.k-radio-item > label.k-radio-label {
+        border: 1px solid rgb(187, 187, 187) !important;
+        width: 100%; 
+    } */
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical
+  > li.k-radio-item
+  > span.k-widget.k-numerictextbox {
+  width: 100% !important;
+}
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical
+  > li.k-radio-item
+  > span.k-widget.k-numerictextbox
+  > span.k-numeric-wrap {
+  border: 1px solid rgb(187, 187, 187) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical
+  > li.k-radio-item
+  > span.k-widget.k-dropdown.k-header
+  > span {
+  border: 1px solid rgb(187, 187, 187) !important;
+}
+
+/* #ScheduleAvailablilty
+  > .k-widget.k-scheduler.k-scheduler-flex.k-floatwrap
+  > .k-scheduler-layout.k-scheduler-layout-flex.k-scheduler-day-view
+  > .k-scheduler-body {
+  max-height: 305px;
+} */
+/* 
+#ScheduleAvailablilty .k-event.k-state-selected {
+  background-color: red !important;
+  box-shadow: none;
+} */
+
+/* #ScheduleAvailablilty .k-event {
+  background-color: #2b70a5 !important;
+  box-shadow: none;
+} */
+
+#ScheduleAvailablilty .k-event .k-resize-s::before {
+  display: none;
+}
+#ScheduleAvailablilty .k-event .k-resize-n::before {
+  display: none;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog
+  > .k-window-titlebar.k-dialog-titlebar.k-header {
+  padding: 0.6rem;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog
+  > .k-window-titlebar.k-dialog-titlebar.k-header
+  > .k-window-actions.k-dialog-actions
+  > a.k-button.k-bare.k-button-icon.k-window-action.k-dialog-action.k-dialog-close {
+  opacity: 1;
+}
+
+#ScheduleAvailablilty
+  > .k-widget.k-scheduler.k-scheduler-flex.k-floatwrap
+  > .k-scheduler-layout.k-scheduler-layout-flex.k-scheduler-day-view
+  > .k-scheduler-body
+  span.k-event-actions
+  a.k-link.k-event-delete {
+  opacity: 1;
+}
+
+#ScheduleAvailablilty
+  > .k-widget.k-scheduler.k-scheduler-flex.k-floatwrap
+  > .k-scheduler-layout.k-scheduler-layout-flex.k-scheduler-monthview
+  > .k-scheduler-body
+  span.k-event-actions
+  a.k-link.k-event-delete {
+  opacity: 1;
+}
+
+#ScheduleAvailablilty .k-scheduler-marquee.k-marquee.k-first.k-last {
+  background-color: #2b70a5;
+}
+
+#ScheduleAvailablilty .k-scheduler-marquee::before,
+.k-scheduler-marquee::after {
+  border-color: #2b70a5 !important;
+}
+
+#ScheduleAvailablilty .k-scheduler-marquee::before,
+.k-scheduler-marquee::after {
+  border-color: #2b70a5 !important;
+}
+
+.k-scheduler-layout .k-scheduler-cell.k-state-selected {
+  background-color: rgba(43, 112, 165, 0.25);
+}
+
+/* #ScheduleAvailablilty .k-widget.k-toolbar.k-scheduler-footer{
+        margin-left: 10px;
+    } */
+/* popup */
+
+#ScheduleAvailablilty .k-event-template.k-event-template {
+  font-size: 11px;
+}
+
+#ScheduleAvailablilty span.k-icon.k-i-reload {
+  font-size: 11px !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical[role="radiogroup"]
+  > li.k-radio-item:first-child {
+  /* border: 1px solid #bbbbbb; */
+
+  border-radius: 2px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical[role="radiogroup"]
+  > li.k-radio-item {
+  /* display: block !important; */
+  margin-top: 0px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical[role="radiogroup"]
+  > li.k-radio-item
+  > label.k-radio-label {
+  margin-left: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical[role="radiogroup"]
+  > li.k-radio-item:first-child
+  > label.k-radio-label {
+  margin-left: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical[role="radiogroup"]
+  > li.k-radio-item
+  > label.k-label.k-radio-label {
+  display: none;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content {
+  padding: 26px;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical
+  > li.k-radio-item:nth-child(2)
+  > span.k-widget.k-numerictextbox {
+  width: 80% !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical[role="radiogroup"]
+  > li.k-radio-item
+  > label.k-radio-label {
+  width: 20%;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical
+  > li.k-radio-item
+  > span.k-widget.k-datepicker {
+  width: 80% !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  .k-form-field
+  > .k-form-field-wrap
+  > ul.k-radio-list.k-list-vertical.k-reset[role="radiogroup"]
+  > li.k-radio-item {
+  border: 0px solid rgb(187, 187, 187) !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form.k-scheduler-edit-form
+  > .k-form-field {
+  margin-top: 0.5rem;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  border-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button {
+  padding: 8px 5px;
+  width: auto !important;
+  /* max-width: 110px; */
+  padding-left: 16px;
+  margin-left: 15px;
+  background-color: #109dd2 !important;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button {
+  padding: 8px 5px;
+  width: auto !important;
+  max-width: 110px;
+  padding-left: 16px;
+  margin-left: 15px;
+  background-color: #109dd2 !important;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1) {
+  background-color: #109dd2 !important;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1):hover {
+  background-color: #0d92c3 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#0d92c3, #0d92c3);
+  background-image: -moz-linear-gradient(#0d92c3, #0d92c3);
+  border-radius: 4px;
+  border: none;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1):focus {
+  background-color: #0d92c3 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#0d92c3, #0d92c3);
+  background-image: -moz-linear-gradient(#0d92c3, #0d92c3);
+  border-radius: 4px;
+  border: none;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1):active {
+  background-color: #0d92c3 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#0d92c3, #0d92c3);
+  background-image: -moz-linear-gradient(#0d92c3, #0d92c3);
+  border-radius: 4px;
+  border: none;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(1):enabled {
+  background-color: #0d92c3 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#0d92c3, #0d92c3);
+  background-image: -moz-linear-gradient(#0d92c3, #0d92c3);
+  border-radius: 4px;
+  border: none;
+  margin-right: 15px;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2) {
+  background-color: #6b6b6b !important;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2):hover {
+  background-color: #232323 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: -moz-linear-gradient(#6b6b6b, #6b6b6b);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2):active {
+  background-color: #232323 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: -moz-linear-gradient(#6b6b6b, #6b6b6b);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2):focus {
+  background-color: #232323 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: -moz-linear-gradient(#6b6b6b, #6b6b6b);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > .k-button:nth-child(2):enabled {
+  background-color: #232323 !important;
+  color: white;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: -moz-linear-gradient(#6b6b6b, #6b6b6b);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > button.k-button:nth-child(1)::before {
+  content: "\f057";
+  font-weight: bold;
+  opacity: 1 !important;
+  display: inline-table;
+  background-color: transparent;
+  /* position: absolute;
+  top: 8px;
+  left: 18px; */
+  position: relative;
+  top: 0px;
+  left: -10px;
+  font-family: fontAwesome;
+}
+
+.k-dialog-wrapper
+  > .k-widget.k-window.k-dialog[role="dialog"]
+  > .k-dialog-buttongroup.k-dialog-button-layout-stretched
+  > button.k-button:nth-child(2)::before {
+  left: inherit;
+  content: "\f1f8";
+  font-weight: normal;
+  opacity: 1 !important;
+  display: inline-table;
+  background-color: transparent;
+  /* position: absolute;
+  top: 8px;
+  left: 20px; */
+  position: relative;
+  top: 0px;
+  left: -10px;
+  font-family: fontAwesome;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog li.k-radio-item input[type="radio"] {
+  -webkit-opacity: 1;
+  opacity: 1;
+  -moz-opacity: 1;
+  -ms-opacity: 1;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap {
+  height: 280px;
+  overflow-y: auto;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap {
+  height: 280px;
+  overflow-y: auto;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > .k-widget.k-datetimepicker
+  > .k-picker-wrap.k-state-default:hover
+  > span.k-select
+  > span.k-link.k-link-date
+  > .k-i-calendar::before {
+  color: white !important;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div
+  > .k-widget.k-datetimepicker
+  > .k-picker-wrap.k-state-default
+  > span.k-select
+  > span.k-link.k-link-date:hover {
+  color: white !important;
+  background-color: #109dd2;
+  border-color: #109dd2;
+  color: #109dd2;
+  background-color: #109dd2;
+  background-image: linear-gradient(#109dd2, #109dd2);
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog .k-textbox {
+  border: 1px solid rgb(187, 187, 187) !important;
+}
+@media (max-width: 1400px) {
+  #ScheduleAvailablilty .k-scheduler-toolbar .k-nav-current .k-lg-date-format {
+    max-width: inherit;
+  }
+
+  #ScheduleAvailablilty
+    .k-widget.k-toolbar.k-scheduler-toolbar
+    > span.k-scheduler-views {
+    float: right;
+  }
+  #ScheduleAvailablilty
+    .k-widget.k-toolbar.k-scheduler-toolbar
+    > span.k-scheduler-views
+    > .k-scheduler-views-wrapper
+    > .k-widget.k-dropdown-button.k-views-dropdown {
+    display: inherit;
+  }
+  #ScheduleAvailablilty
+    .k-widget.k-toolbar.k-scheduler-toolbar
+    > span.k-scheduler-views
+    > .k-scheduler-views-wrapper
+    > .k-button-group.k-scheduler-views[aria-multiselectable="true"] {
+    display: none;
+  }
+
+  #ScheduleAvailablilty
+    .k-widget.k-toolbar.k-scheduler-toolbar
+    > span.k-scheduler-views
+    > .k-scheduler-views-wrapper
+    > .k-widget.k-dropdown-button.k-views-dropdown
+    > button.k-button {
+    background-color: #e4e7eb !important;
+    background-image: -webkit-linear-gradient(#e4e7eb, #e4e7eb);
+    background-image: -moz-linear-gradient(#e4e7eb, #e4e7eb);
+    border: none;
+  }
+
+  #ScheduleAvailablilty
+    .k-scheduler-layout.k-scheduler-layout-flex.k-scheduler-day-view
+    .k-group-cell {
+    background-color: white;
+  }
+}
+
+@media (min-width: 1401px) {
+  #ScheduleAvailablilty
+    span.k-scheduler-views
+    > .k-scheduler-views-wrapper
+    > .k-button-group.k-scheduler-views {
+    display: none;
+  }
+
+  #ScheduleAvailablilty
+    span.k-scheduler-views
+    > .k-scheduler-views-wrapper
+    > .k-widget.k-dropdown-button.k-views-dropdown {
+    display: block;
+  }
+
+  #ScheduleAvailablilty
+    .k-widget.k-scheduler.k-scheduler-flex.k-floatwrap
+    > .k-widget.k-toolbar.k-scheduler-toolbar
+    > span.k-scheduler-views {
+    float: right;
+  }
+
+  #ScheduleAvailablilty
+    span.k-scheduler-views
+    > .k-scheduler-views-wrapper
+    > .k-widget.k-dropdown-button.k-views-dropdown
+    > .k-button {
+    color: #484848;
+    background-color: #e4e7eb;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#e4e7eb),
+      to(#e4e7eb)
+    );
+    background-image: -webkit-linear-gradient(#e4e7eb, #e4e7eb);
+    background-image: linear-gradient(#e4e7eb, #e4e7eb);
+    border: 1px solid #e4e7eb;
+  }
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form
+  > .k-form-field
+  > .k-form-field-wrap
+  > div:nth-child(2)[role="alert"] {
+  display: block;
+}
+
+#ScheduleAvailablilty
+  > .k-widget.k-scheduler.k-scheduler-flex.k-floatwrap
+  > .k-widget.k-toolbar.k-scheduler-toolbar
+  > span.k-widget.k-datepicker
+  > button.k-button.k-flat.k-nav-current
+  > span.k-icon.k-i-calendar::before {
+  color: #2b70a5;
+}
+
+#ScheduleAvailablilty .k-textbox.k-invalid,
+.k-textbox.k-state-invalid,
+.k-textbox.ng-invalid.ng-touched,
+.k-textbox.ng-invalid.ng-dirty,
+.k-textarea.k-invalid,
+.k-textarea.k-state-invalid,
+.k-textarea.ng-invalid.ng-touched,
+.k-textarea.ng-invalid.ng-dirty {
+  border-color: rgba(219, 66, 64, 0.5) !important;
+}
+
+#ScheduleAvailablilty .k-widget.k-toolbar.k-scheduler-footer {
+  padding-left: 20px;
+}
+#ScheduleAvailablilty .k-scheduler table,
+#ScheduleAvailablilty .k-scheduler thead,
+#ScheduleAvailablilty .k-scheduler tfoot,
+#ScheduleAvailablilty .k-scheduler tbody,
+#ScheduleAvailablilty .k-scheduler tr,
+#ScheduleAvailablilty .k-scheduler th,
+#ScheduleAvailablilty .k-scheduler td,
+#ScheduleAvailablilty .k-scheduler div,
+#ScheduleAvailablilty .k-scheduler > * {
+  border-color: #d9d9d9;
+}
+
+#ScheduleAvailablilty .k-button {
+  border: 1px solid #ffffff;
+  box-shadow: none;
+}
+
+#ScheduleAvailablilty .k-button:hover {
+  border: 1px solid #ffffff;
+  box-shadow: none;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-buttongroup
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel {
+  background-color: #6b6b6b !important;
+  background-color: #6b6b6b;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#6b6b6b),
+    to(#6b6b6b)
+  );
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: linear-gradien(#6b6b6b, #6b6b6b);
+  border: 1px solid #6b6b6b;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons {
+  margin-top: 0px;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel {
+  padding: 5px 5px;
+  background-color: #6b6b6b !important;
+  background-color: #6b6b6b;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#6b6b6b),
+    to(#6b6b6b)
+  );
+  background-image: -webkit-linear-gradient(#6b6b6b, #6b6b6b);
+  background-image: linear-gradient(#6b6b6b, #6b6b6b);
+  border: 1px solid #6b6b6b;
+  color: white !important;
+  border-radius: 3px;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-time-accept.k-button.k-primary,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-time-accept.k-button.k-primary,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-time-accept.k-button.k-primary,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-time-accept.k-button.k-primary {
+  padding: 5px 5px;
+  background-color: #109dd2 !important;
+  background-color: #109dd2;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#109dd2),
+    to(#109dd2)
+  );
+  background-image: -webkit-linear-gradient(#109dd2, #109dd2);
+  background-image: linear-gradien(#109dd2, #109dd2);
+  border: 1px solid #109dd2;
+  color: white !important;
+  border-radius: 3px;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel::before,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel::before,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel::before,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-button.k-time-cancel::before {
+  opacity: 1 !important;
+  display: inline-table;
+  background-color: transparent;
+  position: relative;
+  top: 0px;
+  left: -5px;
+  font-family: fontAwesome;
+  content: "\f057" !important;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-time-accept.k-button.k-primary::before,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-time-accept.k-button.k-primary::before,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-time-accept.k-button.k-primary::before,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-up-enter.k-slide-up-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-footer.k-action-buttons
+  > button.k-time-accept.k-button.k-primary::before {
+  opacity: 1 !important;
+  display: inline-table;
+  background-color: transparent;
+  position: relative;
+  top: 0px;
+  left: -5px;
+  font-family: fontAwesome;
+  content: "\f058" !important;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap,
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap {
+  height: auto;
+  overflow-y: auto;
+}
+
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-date-tab.k-datetime-wrap
+  > .k-datetime-selector {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-selector {
+  height: 200px;
+}
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown
+  > .k-popup.k-child-animation-container.k-slide-down-enter.k-slide-down-enter-active
+  > .k-time-tab.k-datetime-wrap
+  > .k-datetime-selector
+  > .k-datetime-time-wrap {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.k-dialog-wrapper.k-scheduler-edit-dialog
+  > .k-widget.k-window.k-dialog
+  > .k-content.k-window-content.k-dialog-content
+  > form.k-form.k-scheduler-edit-form.k-scheduler-edit-form
+  > .k-form-field:nth-child(5) {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 667px) {
+  .k-dialog-wrapper.k-scheduler-edit-dialog > .k-widget.k-window.k-dialog {
+    min-width: 352px !important;
+  }
+
+#ScheduleAvailablilty .k-scheduler-layout-flex .k-scheduler-cell{
+  white-space: pre-wrap;
+  font-size: 7px;
+}
+#ScheduleAvailablilty .k-button {
+  border: 1px solid #ffffff;
+  box-shadow: none;
+}
+
+#ScheduleAvailablilty .k-button:hover {
+  border: 1px solid #ffffff;
+  box-shadow: none;
+}
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .k-dialog-wrapper.k-scheduler-edit-dialog > .k-widget.k-window.k-dialog {
+    min-width: 450px !important;
+    height: 270px;
+  }
+  #ScheduleAvailablilty .k-button {
+    border: 1px solid #ffffff;
+    box-shadow: none;
+  }
+  
+  #ScheduleAvailablilty .k-button:hover {
+    border: 1px solid #ffffff;
+    box-shadow: none;
+  }
+}
+
+/* .k-scheduler-row {
+    display: none !important;
+  } */
+/* .k-scheduler-group .k-group-horizontal {
+  display: none !important;
+} */
+
+.k-scheduler-head > div:nth-child(2) {
+  display: none !important;
+}
+
+.k-scheduler-monthview .k-scheduler-body .k-scheduler-cell{
+  cursor: default !important;
+}

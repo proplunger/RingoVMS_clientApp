@@ -1,0 +1,27 @@
+body {}
+.value-card-bg {
+  background-color: #fbfae4 !important;
+}
+
+.button-reject{
+background-color: #e40429 !important;
+}
+
+a.submitted-timesheet-color {
+color: #4987ec !important;
+text-decoration: none !important;
+}
+  .forprint{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .forprint .chart_heighty > div > div {
+    width: 1189px !important;
+  }
+
+  .day-header {
+    background-color: #2a92b7 !important;
+    padding: 10px 10px;
+    color: white;
+}

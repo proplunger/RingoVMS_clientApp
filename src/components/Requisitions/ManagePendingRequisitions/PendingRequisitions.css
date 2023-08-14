@@ -1,0 +1,22 @@
+.kendo-grid-custom thead .k-menu-link {
+    padding: 0px !important;
+}
+
+.gridCellCheckbox .k-checkbox {
+    border-color: #109dd2 !important;
+}
+
+.gridHeaderCheckbox .k-checkbox {
+    background-color: transparent !important;
+    border-color: #fff !important;
+    color: white;
+}
+.active-icon-blue {
+    color: #4987ec !important;
+}
+.nonactive-icon {
+    color: #484848 !important;
+}
+.approvalGridIcons:hover > .nonactive-icon {
+    color: white !important;
+}

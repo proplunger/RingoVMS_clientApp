@@ -1,0 +1,312 @@
+/* Start CSS */
+
+.container-progress {
+    /* margin: 10px auto; */
+    /* font-size: 24px; */
+    font-weight: bold;
+    /* font-family: Verdana; */
+    color: white;
+    /* margin-top: 50px; */
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.progressbar {
+    margin: 0;
+    padding: 0;
+    counter-reset: step;
+}
+
+.progressbar li {
+    list-style-type: none;
+    width: 16%;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.progressbar li:before {
+    width: 2em;
+    height: 2em;
+    content: counter(step);
+    counter-increment: step;
+    line-height: 35px;
+    /* border: 2px solid #7d7d7d; */
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    padding: 0;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progressbar li:after {
+    margin-top: 5px;
+    width: 100%;
+    height: 0.1em;
+    content: "";
+    position: absolute;
+    background-color: #a1a1a1;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+}
+
+.progressbar li:first-child:after {
+    content: none;
+}
+
+.progressbar li.active {
+    color: white;
+}
+
+.progressbar li.active:before {
+    border-color: dodgerblue;
+    background: dodgerblue;
+}
+
+.progressbar li.active + li:after {
+    /*background-color: dodgerblue;*/
+}
+
+.progressbar label {
+    color: black;
+}
+
+/* .bs-wizard {margin-top: 40px;} */
+
+.progress {
+    background-color: #a1a1a1;
+}
+.bs-wizard {
+    border-bottom: solid 1px #e0e0e0;
+    padding: 0 0 10px 0;
+}
+.bs-wizard > .bs-wizard-step {
+    padding: 0;
+    position: relative;
+}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {
+}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {
+    color: #595959;
+    /* font-size: 16px;  */
+    margin-bottom: 5px;
+}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {
+    color: #999;
+    /* font-size: 14px; */
+}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    display: block;
+
+    top: 16px;
+    /* left: 50%; */
+    left: 0%;
+    margin-top: -15px;
+    /* margin-left: -17px; */
+    margin-left: 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+}
+
+.bs-wizard-step.completed > .bs-wizard-dot {
+    background: #5dc65e;
+}
+.bs-wizard-step.denied > .bs-wizard-dot,
+.bs-wizard-step.cancelled > .bs-wizard-dot {
+    background: rgb(255, 74, 74);
+}
+
+.bs-wizard-step.draft > .bs-wizard-dot {
+    background: #ababab;
+}
+.bs-wizard-step.inprogress > .bs-wizard-dot {
+    background: #ffdd00;
+}
+.bs-wizard-step.review > .bs-wizard-dot {
+    background: #ffdd00;
+}
+
+/* .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; }  */
+.bs-wizard > .bs-wizard-step > .progress {
+    position: relative;
+    border-radius: 0px;
+    height: 2px;
+    box-shadow: none;
+    margin: 20px 0;
+}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {
+    width: 0px;
+    box-shadow: none;
+    background: #5dc65e;
+}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {
+    width: 100%;
+}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {
+    width: 50%;
+}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {
+    width: 0%;
+}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {
+    width: 100%;
+}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {
+    background-color: #a1a1a1;
+}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {
+    opacity: 0;
+}
+.bs-wizard > .bs-wizard-step:first-child > .progress {
+    /* left: 50%;
+    width: 50%; */
+    left:auto;
+    width:auto;
+}
+.bs-wizard > .bs-wizard-step:last-child > .progress {
+ width: 0%;
+    left: -100%;
+    border: 1px dashed #a1a1a1;
+z-index:0;
+}
+
+.bs-wizard > .bs-wizard-step:nth-last-child(2) > .progress {
+ width: 100%;
+    /* left: -100%; */
+    border: 1px dashed #a1a1a1;
+    z-index:0;
+    background-color:transparent;
+    
+}
+
+.bs-wizard > .col.bs-wizard-step.mt-0.d-flex.completed:last-child > .progress {
+    width: 100%;
+       /* left: -100%; */
+       border: 1px solid #a1a1a1;
+       z-index:0;
+       background-color:transparent;
+       
+   }
+
+   .bs-wizard > .col.bs-wizard-step.mt-0.d-flex.inprogress:last-child > .progress {
+    width: 100%;
+       /* left: -100%; */
+       border: 1px solid #a1a1a1;
+       z-index:0;
+       background-color:transparent;
+       
+   }
+
+   .bs-wizard > .col.bs-wizard-step.mt-0.d-flex.denied:last-child > .progress {
+    width: 100%;
+       /* left: -100%; */
+       border: 1px solid #a1a1a1;
+       z-index:0;
+       background-color:transparent;
+       
+   }
+
+   
+
+   .bs-wizard > .col.bs-wizard-step.mt-0.d-flex.ccol-auto-width.denied:last-child > .progress {
+    width: 100%;
+       /* left: -100%; */
+       border: 1px solid #a1a1a1;
+       z-index:0;
+       background-color:transparent;
+       
+   }
+
+/* .col.bs-wizard-step.mt-0.d-flex.draft:last-child{
+    width:12%;
+    max-width:12%;
+} */
+
+.bs-wizard > .col.bs-wizard-step.mt-0.d-flex.draft:last-child > .progress{
+    width: 0;
+    left: -100%;
+    border: 1px dashed #a1a1a1;
+    z-index:0;
+    background-color:transparent;
+}
+/* .bs-wizard > .col.bs-wizard-step.mt-0.d-flex.draft:last-child{
+    width:auto;
+    max-width:34%;
+}
+
+
+.bs-wizard > .bs-wizard-step:last-child{
+    width:auto;
+    max-width:15%;
+} */
+
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot {
+    pointer-events: none;
+}
+.progress-bar-FontSize {
+    font-size: 18px !important;
+}
+
+.tooltippoup {
+    background-color: #f2f7fe;
+    border: 1px solid #96b9f3;
+}
+
+
+.tooltippoup-width{
+    max-width: 800px;
+}
+.flex-wrapNOWrap {
+    flex-wrap: nowrap;
+}
+.space-noWarap {
+    white-space: nowrap;
+}
+.hover-under {
+    color: #0056b3 !important;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Start CSS */
+
+.progress-Shimmer {
+    background-color: #eee;
+    background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1;
+    width: 100%;
+    -webkit-animation: animation-16jpnkj 1.2s ease-in-out infinite;
+    animation: animation-16jpnkj 1.2s ease-in-out infinite;
+}
+
+
+/* .row-centerr-last-child > div .last-child-new{
+
+} */
+/* .row-centerr-last-child > .bs-wizard-step:last-child{
+    width: 25%;
+    max-width: 25%;
+} */
+
+/* .bs-wizard > .col.bs-wizard-step.mt-0.d-flex.cccol-auto-width.denied:last-child > .progress {
+    width: 0%;
+       left: -100%;
+       border: 1px solid #a1a1a1;
+   z-index:0;
+   } */
